@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #FFAA33;
   color: white;
   padding: 1.5rem 0;
 }
@@ -48,14 +48,14 @@ form input, form textarea, form button {
 }
 
 form button {
-  background-color: #4CAF50;
+  background-color: #FFAA33;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #45a049;
+  background-color: #FFAA33;
 }
 
 footer {
