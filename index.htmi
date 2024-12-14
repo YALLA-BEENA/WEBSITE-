@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>يلا بينا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>مرحبًا بكم في يلا بينا</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">عن الموقع</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>عن الموقع</h2>
+      <p>موقع يلا بينا يهدف إلى تقديم خدمات مميزة وسهلة للمستخدمين في كافة المجالات.</p>
+    </section>
+
+    <section id="services">
+      <h2>خدماتنا</h2>
+      <ul>
+        <li>الخدمة الأولى: وصف للخدمة.</li>
+        <li>الخدمة الثانية: وصف للخدمة.</li>
+        <li>الخدمة الثالثة: وصف للخدمة.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>اتصل بنا</h2>
+      <form action="https://formspree.io/f/{your_form_id}" method="POST">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 يلا بينا. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
